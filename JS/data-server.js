@@ -173,7 +173,7 @@ export function endMessage(
       tease.innerHTML = theData["texts"]["end-course-pop-des-3"];
       card2.appendChild(tease);
       let img = document.createElement("img");
-      img.src = "../Images/mr_tears.webp";
+      img.src = "Images/mr_tears.webp";
       card2.appendChild(img);
       let btnGhost = document.createElement("div");
       btnGhost.className = "btn-ghost";
@@ -263,4 +263,5 @@ export function sendUserDataWithDevice(name, age, city) {
     window.location.reload()
   })
   .catch((err) => console.error("خطأ:", err));
+
 }
