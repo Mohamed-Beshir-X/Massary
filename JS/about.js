@@ -34,7 +34,7 @@ close.addEventListener("click" , ()=>{
 
 let img = document.createElement("img")
 img.className = "img"
-img.src = "../Images/support.webp"
+img.src = "Images/support.webp"
 popUp.appendChild(img)
 let next = document.createElement("span")
 next.className = "next"
@@ -196,4 +196,5 @@ next2.addEventListener("click" , ()=>{
 })
 })
 }
+
 
