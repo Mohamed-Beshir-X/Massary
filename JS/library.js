@@ -36,7 +36,7 @@ export function makeBooks(theData) {
     imgHandle.className = "img";
     book.appendChild(imgHandle);
     let bookImg = document.createElement("img");
-    bookImg.src = `../Images/book${i}.webp`;
+    bookImg.src = `Images/book${i}.webp`;
     imgHandle.appendChild(bookImg);
     let booksContainer = document.querySelector(".body-container .books");
     let title = document.createElement("h4");
@@ -47,7 +47,7 @@ export function makeBooks(theData) {
     book.appendChild(des);
     let link = document.createElement("a");
     let imgIcon = document.createElement("img");
-    imgIcon.src = "../Images/coins.webp";
+    imgIcon.src = "Images/coins.webp";
     let price = document.createElement("span");
     price.textContent = theData["books"][book.id]["price"];
     link.appendChild(imgIcon);
@@ -97,7 +97,7 @@ export function makeBooks(theData) {
         des.className = "des";
         head.textContent = theData['texts']['library-coins'];
         des.innerHTML = theData["texts"]['library-coins-des']
-        img.src = "../Images/no_coins.webp";
+        img.src = "Images/no_coins.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -189,4 +189,5 @@ function downloadFile(url, fileName) {
     false,
     {}
   );
+
 }
