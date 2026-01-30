@@ -207,7 +207,7 @@ function namingElements(){
 }
 WritableStreamDefaultController
 if (lang === "ar") {
-  fetch("../lang/data-ar.json")
+  fetch("Massary/lang/data-ar.json")
     .then((res) => res.json())
     .then((data) => {
         theData = data;
@@ -332,7 +332,7 @@ if (lang === "ar") {
     })
     .catch((err) => console.log(err));
 } else if (lang === "en") {
-  fetch("../lang/data-en.json")
+  fetch("Massary/lang/data-en.json")
     .then((res) => res.json())
     .then((data) => {
            theData = data;
@@ -461,4 +461,5 @@ if (lang === "ar") {
 // window.addEventListener("offline" , ()=>{
 //   console.log("we are offline")
 //   console.log("we")
+
 // })
