@@ -683,7 +683,7 @@ export function createAdream(theData) {
       emptyNursery();
     });
     let img = document.createElement("img");
-    img.src = "../Images/thinking2.webp";
+    img.src = "Images/thinking2.webp";
     img.className = "remove";
     popUp.appendChild(img);
 
@@ -838,7 +838,7 @@ export function returnDream(theData) {
         }, 250);
       });
       let img = document.createElement("img");
-      img.src = "../Images/thinking2.webp";
+      img.src = "Images/thinking2.webp";
       img.className = "remove";
       popUp.appendChild(img);
     });
@@ -1237,4 +1237,5 @@ export function emptyNursery(theData) {
       .querySelector(".body-container .dream .container")
       .appendChild(words);
   }
+
 }
