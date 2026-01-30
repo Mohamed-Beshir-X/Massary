@@ -13,7 +13,7 @@ export function programmingHTMLSection(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/HTML.webp";
+  head.src = "Images/HTML.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -48,7 +48,7 @@ export function programmingHTMLSection(theData) {
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
         // des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -86,7 +86,7 @@ export function programmingHTMLSection(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -121,7 +121,7 @@ export function programmingHTMLSection(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -226,7 +226,7 @@ export function programmingHTMLSection(theData) {
           theData["programming"]["html"][`html_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -290,7 +290,7 @@ export function programmingHTMLSection(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -461,7 +461,7 @@ export function programmingcommandLineSection(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/command_line.webp";
+  head.src = "Images/command_line.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -492,7 +492,7 @@ export function programmingcommandLineSection(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -530,7 +530,7 @@ export function programmingcommandLineSection(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -564,7 +564,7 @@ export function programmingcommandLineSection(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -669,7 +669,7 @@ export function programmingcommandLineSection(theData) {
           theData["programming"]["command_line"][`cli1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -728,7 +728,7 @@ export function programmingcommandLineSection(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -876,7 +876,7 @@ export function programminggitHubSection(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/github.webp";
+  head.src = "Images/github.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -907,7 +907,7 @@ export function programminggitHubSection(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -945,7 +945,7 @@ export function programminggitHubSection(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -979,7 +979,7 @@ export function programminggitHubSection(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1084,7 +1084,7 @@ export function programminggitHubSection(theData) {
           theData["programming"]["github"][`git1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -1149,7 +1149,7 @@ export function programminggitHubSection(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1322,7 +1322,7 @@ export function programmingtemplate_1Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/template_1.webp";
+  head.src = "Images/template_1.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -1353,7 +1353,7 @@ export function programmingtemplate_1Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1391,7 +1391,7 @@ export function programmingtemplate_1Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -1425,7 +1425,7 @@ export function programmingtemplate_1Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1532,7 +1532,7 @@ export function programmingtemplate_1Section(theData) {
           theData["programming"]["template_1"][`template_1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -1597,7 +1597,7 @@ export function programmingtemplate_1Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1770,7 +1770,7 @@ export function programmingtemplate_2Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/template_2.webp";
+  head.src = "Images/template_2.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -1801,7 +1801,7 @@ export function programmingtemplate_2Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1839,7 +1839,7 @@ export function programmingtemplate_2Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -1873,7 +1873,7 @@ export function programmingtemplate_2Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1980,7 +1980,7 @@ export function programmingtemplate_2Section(theData) {
           theData["programming"]["template_2"][`template_2_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -2045,7 +2045,7 @@ export function programmingtemplate_2Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2218,7 +2218,7 @@ export function programmingtemplate_3Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/template_3.webp";
+  head.src = "Images/template_3.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -2249,7 +2249,7 @@ export function programmingtemplate_3Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2287,7 +2287,7 @@ export function programmingtemplate_3Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -2321,7 +2321,7 @@ export function programmingtemplate_3Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2428,7 +2428,7 @@ export function programmingtemplate_3Section(theData) {
           theData["programming"]["template_3"][`template_3_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -2493,7 +2493,7 @@ export function programmingtemplate_3Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2665,7 +2665,7 @@ export function programmingtemplate_4Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/template_4.webp";
+  head.src = "Images/template_4.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -2696,7 +2696,7 @@ export function programmingtemplate_4Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2734,7 +2734,7 @@ export function programmingtemplate_4Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -2768,7 +2768,7 @@ export function programmingtemplate_4Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2875,7 +2875,7 @@ export function programmingtemplate_4Section(theData) {
           theData["programming"]["template_4"][`template_4_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -2940,7 +2940,7 @@ export function programmingtemplate_4Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -3114,7 +3114,7 @@ export function programmingtemplate_5Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/template_special.webp";
+  head.src = "Images/template_special.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -3145,7 +3145,7 @@ export function programmingtemplate_5Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -3183,7 +3183,7 @@ export function programmingtemplate_5Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -3217,7 +3217,7 @@ export function programmingtemplate_5Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -3328,7 +3328,7 @@ export function programmingtemplate_5Section(theData) {
           ]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -3393,7 +3393,7 @@ export function programmingtemplate_5Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -3567,7 +3567,7 @@ export function programmingjsSection(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/js.webp";
+  head.src = "Images/js.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -3598,7 +3598,7 @@ export function programmingjsSection(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -3636,7 +3636,7 @@ export function programmingjsSection(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -3670,7 +3670,7 @@ export function programmingjsSection(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -3774,7 +3774,7 @@ export function programmingjsSection(theData) {
           theData["programming"]["js"][`js_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -3837,7 +3837,7 @@ export function programmingjsSection(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -4006,7 +4006,7 @@ export function programmingCssSection(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/CSS.webp";
+  head.src = "Images/CSS.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -4037,7 +4037,7 @@ export function programmingCssSection(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -4075,7 +4075,7 @@ export function programmingCssSection(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -4109,7 +4109,7 @@ export function programmingCssSection(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -4214,7 +4214,7 @@ export function programmingCssSection(theData) {
           theData["programming"]["css"][`css_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -4278,7 +4278,7 @@ export function programmingCssSection(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -4449,7 +4449,7 @@ export function programmingBeforeSection(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/prog1.webp";
+  head.src = "Images/prog1.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -4480,7 +4480,7 @@ export function programmingBeforeSection(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -4518,7 +4518,7 @@ export function programmingBeforeSection(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -4552,7 +4552,7 @@ export function programmingBeforeSection(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -4657,7 +4657,7 @@ export function programmingBeforeSection(theData) {
           theData["programming"]["before_prog"][`prog1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -4705,7 +4705,7 @@ export function programmingBeforeSection(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -4762,4 +4762,5 @@ endMessage(
   }
   section.classList = "before_prog section";
   body.appendChild(section);
+
 }
