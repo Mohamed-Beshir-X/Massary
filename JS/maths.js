@@ -14,7 +14,7 @@ export function mathsbefore_mathsSection(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/before_maths.webp";
+  head.src = "Images/before_maths.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -45,7 +45,7 @@ export function mathsbefore_mathsSection(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -83,7 +83,7 @@ export function mathsbefore_mathsSection(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -117,7 +117,7 @@ export function mathsbefore_mathsSection(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -224,7 +224,7 @@ export function mathsbefore_mathsSection(theData) {
           theData["maths"]["before_maths"][`before_maths_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -272,7 +272,7 @@ export function mathsbefore_mathsSection(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent =theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -336,7 +336,7 @@ export function mathscount1Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/count1.webp";
+  head.src = "Images/count1.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -367,7 +367,7 @@ export function mathscount1Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -405,7 +405,7 @@ export function mathscount1Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -439,7 +439,7 @@ export function mathscount1Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -544,7 +544,7 @@ export function mathscount1Section(theData) {
           theData["maths"]["count1"][`count1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -592,7 +592,7 @@ export function mathscount1Section(theData) {
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
 
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -657,7 +657,7 @@ export function mathscalc1Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/calc1.webp";
+  head.src = "Images/calc1.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -688,7 +688,7 @@ export function mathscalc1Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -726,7 +726,7 @@ export function mathscalc1Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -760,7 +760,7 @@ export function mathscalc1Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -864,7 +864,7 @@ export function mathscalc1Section(theData) {
           theData["maths"]["calc1"][`calc1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -911,7 +911,7 @@ export function mathscalc1Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -978,7 +978,7 @@ export function mathsfrac1Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/frac1.webp";
+  head.src = "Images/frac1.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -1009,7 +1009,7 @@ export function mathsfrac1Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1047,7 +1047,7 @@ export function mathsfrac1Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -1081,7 +1081,7 @@ export function mathsfrac1Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1185,7 +1185,7 @@ export function mathsfrac1Section(theData) {
           theData["maths"]["frac1"][`frac1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -1232,7 +1232,7 @@ export function mathsfrac1Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1297,7 +1297,7 @@ export function mathscalc2Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/calc2.webp";
+  head.src = "Images/calc2.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -1328,7 +1328,7 @@ export function mathscalc2Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1366,7 +1366,7 @@ export function mathscalc2Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -1400,7 +1400,7 @@ export function mathscalc2Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1504,7 +1504,7 @@ export function mathscalc2Section(theData) {
           theData["maths"]["calc2"][`calc2_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -1551,7 +1551,7 @@ export function mathscalc2Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1616,7 +1616,7 @@ export function mathsfunc1Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/func1.webp";
+  head.src = "Images/func1.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -1647,7 +1647,7 @@ export function mathsfunc1Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1685,7 +1685,7 @@ export function mathsfunc1Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -1719,7 +1719,7 @@ export function mathsfunc1Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1823,7 +1823,7 @@ export function mathsfunc1Section(theData) {
           theData["maths"]["func1"][`func1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -1870,7 +1870,7 @@ export function mathsfunc1Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -1934,7 +1934,7 @@ export function mathslimit1Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/limit1.webp";
+  head.src = "Images/limit1.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -1965,7 +1965,7 @@ export function mathslimit1Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2003,7 +2003,7 @@ export function mathslimit1Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -2037,7 +2037,7 @@ export function mathslimit1Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2142,7 +2142,7 @@ export function mathslimit1Section(theData) {
           theData["maths"]["limit1"][`limit1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -2189,7 +2189,7 @@ export function mathslimit1Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2252,7 +2252,7 @@ export function mathscont1Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/cont1.webp";
+  head.src = "Images/cont1.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -2283,7 +2283,7 @@ export function mathscont1Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2321,7 +2321,7 @@ export function mathscont1Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -2355,7 +2355,7 @@ export function mathscont1Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2459,7 +2459,7 @@ export function mathscont1Section(theData) {
           theData["maths"]["cont1"][`cont1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -2506,7 +2506,7 @@ export function mathscont1Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2570,7 +2570,7 @@ export function mathsderiv1Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/deriv1.webp";
+  head.src = "Images/deriv1.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -2601,7 +2601,7 @@ export function mathsderiv1Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2639,7 +2639,7 @@ export function mathsderiv1Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -2673,7 +2673,7 @@ export function mathsderiv1Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2778,7 +2778,7 @@ export function mathsderiv1Section(theData) {
           theData["maths"]["deriv1"][`deriv1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -2825,7 +2825,7 @@ export function mathsderiv1Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2889,7 +2889,7 @@ export function mathsinteg1Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/integ1.webp";
+  head.src = "Images/integ1.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -2920,7 +2920,7 @@ export function mathsinteg1Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -2958,7 +2958,7 @@ export function mathsinteg1Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -2992,7 +2992,7 @@ export function mathsinteg1Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -3097,7 +3097,7 @@ export function mathsinteg1Section(theData) {
           theData["maths"]["integ1"][`integ1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -3144,7 +3144,7 @@ export function mathsinteg1Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -3208,7 +3208,7 @@ export  function mathstrig1Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/trig1.webp";
+  head.src = "Images/trig1.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -3239,7 +3239,7 @@ export  function mathstrig1Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -3277,7 +3277,7 @@ export  function mathstrig1Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -3311,7 +3311,7 @@ export  function mathstrig1Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -3415,7 +3415,7 @@ export  function mathstrig1Section(theData) {
           theData["maths"]["trig1"][`trig1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -3462,7 +3462,7 @@ export  function mathstrig1Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -3526,7 +3526,7 @@ export function mathsexplog1Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/explog1.webp";
+  head.src = "Images/explog1.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -3557,7 +3557,7 @@ export function mathsexplog1Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -3595,7 +3595,7 @@ export function mathsexplog1Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -3629,7 +3629,7 @@ export function mathsexplog1Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -3734,7 +3734,7 @@ export function mathsexplog1Section(theData) {
           theData["maths"]["explog1"][`explog1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -3781,7 +3781,7 @@ export function mathsexplog1Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -3845,7 +3845,7 @@ export function mathsos1Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/os1.webp";
+  head.src = "Images/os1.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -3876,7 +3876,7 @@ export function mathsos1Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -3914,7 +3914,7 @@ export function mathsos1Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -3948,7 +3948,7 @@ export function mathsos1Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -4051,7 +4051,7 @@ export function mathsos1Section(theData) {
           theData["maths"]["os1"][`os1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -4098,7 +4098,7 @@ export function mathsos1Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -4162,7 +4162,7 @@ export function mathsmech1Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/mech1.webp";
+  head.src = "Images/mech1.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -4193,7 +4193,7 @@ export function mathsmech1Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -4231,7 +4231,7 @@ export function mathsmech1Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -4265,7 +4265,7 @@ export function mathsmech1Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -4369,7 +4369,7 @@ export function mathsmech1Section(theData) {
           theData["maths"]["mech1"][`mech1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -4416,7 +4416,7 @@ export function mathsmech1Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -4480,7 +4480,7 @@ export function mathslagrang1Section(theData) {
   let lessons = [];
   let heading = document.createElement("div");
   let head = document.createElement("img");
-  head.src = "../Images/lagrang1.webp";
+  head.src = "Images/lagrang1.webp";
   heading.className = "heading";
   heading.appendChild(head);
   section.appendChild(heading);
@@ -4511,7 +4511,7 @@ export function mathslagrang1Section(theData) {
         des.textContent = theData["texts"]["popUp-not-done"]
         des2.innerHTML = theData["texts"]["popUp-not-done-2"];
 
-        img.src = "../Images/explain1png.webp";
+        img.src = "Images/explain1png.webp";
         document.getElementById("info").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -4549,7 +4549,7 @@ export function mathslagrang1Section(theData) {
         let des = document.createElement("p");
         let des2 = document.createElement("div");
         let des2Img = document.createElement("img");
-        des2Img.src = "../Images/coins.webp";
+        des2Img.src = "Images/coins.webp";
         let des2Span = document.createElement("span");
         des2Span.textContent = "+";
         let des3Span = document.createElement("span");
@@ -4583,7 +4583,7 @@ export function mathslagrang1Section(theData) {
         console.log(score);
         localStorage.setItem("Massary-coins", score);
         popUp.classList.add("done");
-        img.src = "../Images/start.webp";
+        img.src = "Images/start.webp";
         document.getElementById("done").play();
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -4688,7 +4688,7 @@ export function mathslagrang1Section(theData) {
           theData["maths"]["lagrang1"][`lagrang1_ar_${i}`]["url"]
         );
         des.className = "des";
-        img.src = "../Images/reading.webp";
+        img.src = "Images/reading.webp";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
           layer.remove();
@@ -4735,7 +4735,7 @@ export function mathslagrang1Section(theData) {
         close.classList.add("fas");
         close.classList.add("fa-close");
         head.textContent = theData["texts"]["popUp-start-title"];
-        img.src = "../Images/thinking1.webp";
+        img.src = "Images/thinking1.webp";
         img.className = "start";
         close.addEventListener("click", () => {
           popUp.classList.add("out");
@@ -4791,4 +4791,5 @@ endMessage(
   }
   section.classList = "lagrang1 section";
   body.appendChild(section);
+
 }
