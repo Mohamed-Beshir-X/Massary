@@ -37,7 +37,7 @@ export function startTheApp(theData) {
         popUp.appendChild(des);
         let img = document.createElement("img");
         img.className = "img";
-        img.src = "../Images/network.webp";
+        img.src = "Images/network.webp";
         popUp.appendChild(img);
         let restart = document.createElement("span");
         restart.className = "restart";
@@ -62,7 +62,7 @@ export function startTheApp(theData) {
     imgCont1.className = "img";
     developer.appendChild(imgCont1);
     let img1 = document.createElement("img");
-    img1.src = "../Images/developer.webp";
+    img1.src = "Images/developer.webp";
     imgCont1.appendChild(img1);
     developer.addEventListener("animationend", () => {
       developer.remove();
@@ -73,7 +73,7 @@ export function startTheApp(theData) {
       imgCont2.className = "img";
       product.appendChild(imgCont2);
       let img2 = document.createElement("img");
-      img2.src = "../Images/logo3.webp";
+      img2.src = "Images/logo3.webp";
       imgCont2.appendChild(img2);
       product.addEventListener("animationend", () => {
         product.remove();
@@ -96,7 +96,7 @@ export function startTheApp(theData) {
           popUp.appendChild(des);
           let img = document.createElement("img");
           img.className = "img";
-          img.src = "../Images/network.webp";
+          img.src = "Images/network.webp";
           popUp.appendChild(img);
           let restart = document.createElement("span");
           restart.className = "restart";
@@ -139,7 +139,7 @@ function firstStart(theData) {
   popUp.appendChild(des);
   let img = document.createElement("img");
   img.className = "img";
-  img.src = "../Images/first-1.webp";
+  img.src = "Images/first-1.webp";
   popUp.appendChild(img);
   let next = document.createElement("span");
   next.className = "next";
@@ -165,7 +165,7 @@ function firstStart(theData) {
       popUp2.appendChild(des2);
       let img2 = document.createElement("img");
       img2.className = "img";
-      img2.src = "../Images/first-2.webp";
+      img2.src = "Images/first-2.webp";
       popUp2.appendChild(img2);
       let next2 = document.createElement("span");
       next2.className = "next";
@@ -191,7 +191,7 @@ function firstStart(theData) {
           popUp3.appendChild(des3);
           let img3 = document.createElement("img");
           img3.className = "img";
-          img3.src = "../Images/first-3.webp";
+          img3.src = "Images/first-3.webp";
           popUp3.appendChild(img3);
           let next3 = document.createElement("span");
           next3.className = "next";
@@ -217,7 +217,7 @@ function firstStart(theData) {
               popUp4.appendChild(des4);
               let img4 = document.createElement("img");
               img4.className = "img";
-              img4.src = "../Images/first-4.webp";
+              img4.src = "Images/first-4.webp";
               popUp4.appendChild(img4);
               let next4 = document.createElement("span");
               next4.className = "next";
@@ -354,5 +354,6 @@ export function chooseLang(){
     window.location.reload()
   })
 }
+
 
 
