@@ -181,7 +181,7 @@ export function createTheGift(theData) {
   gift.className = "img";
   gift.classList.add("gift");
   let giftImg = document.createElement("img");
-  giftImg.src = "../Images/gift.webp";
+  giftImg.src = "Images/gift.webp";
   gift.appendChild(giftImg);
   let thePlace = Array.from(
     document.querySelectorAll(
@@ -218,7 +218,7 @@ export function createTheGift(theData) {
     console.log("---------------")
     console.log(randomGiftMessage)
     console.log("---------------")
-    img.src = "../Images/mr_gift.webp";
+    img.src = "Images/mr_gift.webp";
 
     close.addEventListener("click", () => {
       popUp.classList.add("out");
@@ -286,7 +286,7 @@ export function createTheMessage(theData) {
   console.log(currentSec)
     thePlace.appendChild(message)
     let messageImg = document.createElement("img")
-    messageImg.src = "../Images/message.webp"
+    messageImg.src = "Images/message.webp"
     message.appendChild(messageImg)
 
     message.addEventListener("mouseover", (e) => {
@@ -318,7 +318,7 @@ const tempRandomMessage =
     des.className = "des";
     des.innerHTML = `${randomMessage}`;
 
-    img.src = "../Images/mr_message.webp";
+    img.src = "Images/mr_message.webp";
 
     close.addEventListener("click", () => {
       popUp.classList.add("out");
@@ -364,7 +364,7 @@ export function seeInternet(theData){
     popUp.appendChild(des)
     let img =document.createElement("img")
     img.className = "img"
-    img.src = "../Images/network.webp"
+    img.src = "Images/network.webp"
     popUp.appendChild(img)
     let restart = document.createElement("span")
     restart.className = "restart"
@@ -378,4 +378,5 @@ export function seeInternet(theData){
   window.addEventListener("online" , ()=>{
     window.location.reload()
   })
+
 }
